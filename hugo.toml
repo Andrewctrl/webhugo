@@ -1,0 +1,13 @@
+baseURL = "https://andrewctrl.github.io/webhugo"
+languageCode = "en-us"
+theme = "anubis2"
+title = "Andrew's site"
+
+[params.author]
+name = "andrewctrl"
+
+[markup.goldmark.renderer]
+unsafe = true # true | false; Enable unsafe mode to have a better experience
+
+[markup.highlight]
+style = 'base16-snazzy' # Chroma style, find more at here: https://swapoff.org/chroma/playground/
